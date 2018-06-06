@@ -1,0 +1,89 @@
+html, body{
+	overflow: auto;
+	overflow-x: hidden;
+	height: 100%;
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+
+}
+
+section{
+	position: relative;
+	margin: 0 -999rem;
+	padding: 5.25rem 999rem;
+	text-align: center;
+}
+
+#welcomeSection{
+	background-color: #2980b9;
+  background: radial-gradient(blue, cyan);
+  background-image: url("https://www.small-improvements.com/wp-content/uploads/2016/10/green2.jpg");
+  background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  /*background-size: cover;
+  background-repeat: no-repeat;*/
+	color: white;
+	font-size: 1.7em;
+}
+
+#About{
+	background-color: #1abc9c;
+	color: white;
+}
+
+#About p, #Skills p{
+	padding: 0 120px;
+	text-align: left;
+}
+
+#Skills{
+	background-color: #d35400;
+	color: white;
+}
+
+#Work{
+	background-color: #34495e;
+	color: white;
+}
+
+#Contact{
+	background-color: #9b59b6;
+	color: white;
+}
+
+img{
+	padding: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-device-width:999px){
+}
+
+nav {
+  background-color: #2980b9;
+padding-right:5px;
+height:60px;
+display:block;
+width:auto;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  background-color: #2980b9;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+}
+
+section a i{
+  border-raduis: 50%;
+  margin: 20px;
+}
